@@ -1,0 +1,14 @@
+# ninja log v6
+3	297	7891736937087043	build.ninja	3736c8675b7c896d
+6	1183	7875902500913460	CMakeFiles/Projekt_CPP.dir/main.cpp.obj	c6615e254e138720
+166	1332	7871651786796589	CMakeFiles/Projekt_CPP.dir/map/Tile.cpp.obj	585b5d370d1c787f
+24	1294	7875902501094096	CMakeFiles/Projekt_CPP.dir/map/Map.cpp.obj	f10580d296b4bb31
+1100	1404	7875907444207836	Projekt_CPP.exe	78925e96be67c041
+78	991	7875902501642985	CMakeFiles/Projekt_CPP.dir/units/Swordsman.cpp.obj	e35679cb018c74fc
+42	917	7875902501270029	CMakeFiles/Projekt_CPP.dir/units/Unit.cpp.obj	f5265875e0cf84ef
+59	962	7875902501445041	CMakeFiles/Projekt_CPP.dir/units/Cavalry.cpp.obj	51e461437a2537ec
+97	1019	7875902501822220	CMakeFiles/Projekt_CPP.dir/units/Archer.cpp.obj	2e85767c12a55807
+118	1074	7875902502035528	CMakeFiles/Projekt_CPP.dir/units/Bard.cpp.obj	fb1ede26f50e6651
+6	823	7875907433259815	CMakeFiles/Projekt_CPP.dir/player/Player.cpp.obj	3bcb28a5680024b5
+41	815	7875907433611397	CMakeFiles/Projekt_CPP.dir/game/TurnManager.cpp.obj	8d90fa440ede6c8d
+24	1100	7875907433450792	CMakeFiles/Projekt_CPP.dir/game/Game.cpp.obj	a7b10a4086f41334

@@ -1,0 +1,21 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\danie\OneDrive\Plocha\cpp_zs2025-2026_xjanek_MAIN\Projekt_CPP -B C:\Users\danie\OneDrive\Plocha\cpp_zs2025-2026_xjanek_MAIN\Projekt_CPP\cmake-build-debug
+CMake Warning at CMakeLists.txt:8 (find_package):
+  By not providing "FindQt6.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Qt6", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Qt6" with any of
+  the following names:
+
+    Qt6Config.cmake
+    qt6-config.cmake
+
+  Add the installation prefix of "Qt6" to CMAKE_PREFIX_PATH or set "Qt6_DIR"
+  to a directory containing one of the above files.  If "Qt6" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Qt6 not found, building console version
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/danie/OneDrive/Plocha/cpp_zs2025-2026_xjanek_MAIN/Projekt_CPP/cmake-build-debug
