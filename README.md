@@ -151,16 +151,6 @@ docs/            Screenshots
 
 Honest notes on what is unfinished, mostly so nobody has to find them by surprise:
 
-- **The bard cannot heal.** `Bard::heal()` is implemented and works, but no UI path calls it, so a bard
-  currently does nothing except hit for 10. The same is true of `Cavalry::charge()` — the charge *bonus*
-  is live, the dedicated move-and-strike method is not.
-- **The combat log under-reports archer damage.** The log and floating numbers print the attacker's base
-  damage, so a long-range archer shot reads as 20 while the target actually loses 30. The damage applied
-  is correct; only the text is wrong.
-- **The swordsman's parry is pure chance** — a flat 30% roll on the attacker's side, with no defend
-  stance to choose. `Swordsman::isDefending` exists for the manual version and is never set.
-- **Buildings are never freed.** Units and players are cleaned up when a `Game` is destroyed; the
-  building vector is not, so each finished match leaks a handful of small allocations.
 - **The non-Qt fallback in `CMakeLists.txt` will not build.** If Qt 6 is missing, CMake falls back to a
   "console version" that still compiles `main.cpp`, which is Qt-only. Qt 6 is effectively required.
 - **No AI and no networking.** Two players, one keyboard and mouse, hot seat.
