@@ -160,3 +160,5 @@ Honest notes on what is unfinished, mostly so nobody has to find them by surpris
 The code is mine. The sprite sheets, tilesets, pixel fonts and sound effects under `images/`,
 `images_units/`, `images_buildings/`, `fonts/` and `sounds/` are third-party assets used for a school
 project — check their original licences before reusing any of them elsewhere.
+
+* **2D Art Assets:** [Tiny Swords](https://pixelfrog-assets.itch.io/tiny-swords) by [Pixel Frog](https://pixelfrog-assets.itch.io/).
